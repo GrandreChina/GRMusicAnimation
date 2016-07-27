@@ -8,12 +8,14 @@
 
 import UIKit
 
-class MyView: UIView {   
+class GRView: UIView {
+    
+    var colorArr2:[UIColor]!
+    
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-//        self.layer.backgroundColor = UIColor.greenColor().CGColor
-//        self.layer.frame = CGRectMake(100, 100, 200, 200)
-        
+
     }
 //添加指定构造器
     init(rect: CGRect,number: Int){
@@ -23,8 +25,6 @@ class MyView: UIView {
         self.animate(number)
         
     }
-    
-    var colorArr2:[UIColor]!
     
     func addSubviews(number柱数: Int){
 

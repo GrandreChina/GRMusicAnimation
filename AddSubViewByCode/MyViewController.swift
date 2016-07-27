@@ -13,12 +13,11 @@ class MyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let myView = MyView(rect: CGRectMake(125,100, 30, 30),number: 5)
+        let myGRView1 = GRView(rect: CGRectMake(125,100, 30, 30),number: 5)
+        self.view.addSubview(myGRView1)
         
-        self.view.addSubview(myView)
-        
-        let myView2 = MyView(rect: CGRectMake(100, 200, 200, 200), number: 20)
-        self.view.addSubview(myView2)
+        let myGRView2 = GRView(rect: CGRectMake(100, 200, 200, 200), number: 20)
+        self.view.addSubview(myGRView2)
         
     }
 
