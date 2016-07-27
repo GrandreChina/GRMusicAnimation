@@ -1,7 +1,7 @@
 
 ![效果图](https://github.com/GrandreChina/AddSubViewByCode-/blob/master/GRMusicUIAnimation3.gif)
 ![效果图2](https://github.com/GrandreChina/AddSubViewByCode-/blob/master/xiaoguotu.png)
-# AddSubViewByCode-
+# GRMusicAnimation
 - 这是一个简单而又酷炫的动画，只要懂得那么一点点数学知识你就可以收入囊中
 - 这是一个适合动画初学者拿来学习的小白，爱怎么弄就怎么弄
 - 这个一个接口非常简洁的UIView子类，只要输入参数frame和number
